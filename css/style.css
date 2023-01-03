@@ -10,6 +10,27 @@
 /* !ROOT VARIABLE */
 
 :root{
-    
+ --color-primary-dark:#4338CA;
+ --color-primary-light:#075985;
+ --color-secondary:#ddd6fe;
+ --main-white:#fff;
+ --main-black:#262626;
+ --main-gray:#D6D3D1;
+ --main-transition:all 0.3s linear;
+ --color-body:#f6f6f6;
+ --color-main-red:#E11D48;
+
 }
+html{
+    font-size: 62.5%;
+}
+
+body{
+    color: var(--main-black);
+    font-family: "inter",sans-serif;
+    font-size: 2rem;
+    background-color: var(--color-body); 
+}
+
+
 
