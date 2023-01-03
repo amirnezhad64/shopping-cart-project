@@ -32,5 +32,52 @@ body{
     background-color: var(--color-body); 
 }
 
+.nav{
+    background-color: var(--color-secondary);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    padding: 2rem 4rem;
+}
+
+.nav__toggler{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.bar{
+    width: 25px;
+    height: 4px;
+    background-color: var(--main-black);
+    border-radius: 8px;
+    margin: 5px 0;
+}
+
+.nav__list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+
+}
+.nav__items{
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #ccc;
+
+}
+.nav__items >a{
+    text-decoration: none;
+    color: var(--color-primary-light);
+    display: block;
+    padding: 0,5rem 0rem;
+}
+.nav__items >a:hover{
+    color: var(--color-primary-dark);
+
+}
+
+
+
 
 
